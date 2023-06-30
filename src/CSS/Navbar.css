@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+div.page1 {
+  height: 100vh;
+  width: 100%;
+  background: url("../Assets/bg1.png") no-repeat;
+  position: relative;
+}
+
+nav {
+  height: 6.8rem;
+  width: inherit;
+  padding: 0rem 8rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+div.page1 nav span {
+  height: max-content;
+  width: max-content;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bolder !important;
+  margin-right: 2.5rem;
+}
+
+div.page1 nav button {
+  cursor: pointer;
+  padding: 0.7rem 1.2rem;
+  background-color: #f84646;
+  color: aliceblue;
+  border: none;
+  font-size: 14px;
+  border-radius: 0.3rem;
+}
+
+section.part2 {
+  height: max-content;
+  width: 44rem;
+  position: absolute;
+  top: 12.6rem;
+  left: 7.6rem;
+}
+
+section.part2 h1 {
+  width: 50rem;
+  font-size: 64px !important;
+  font-weight: 900;
+  line-height: 5.1rem;
+  margin-bottom: 1.3rem;
+}
+
+section.part2 span {
+  font-size: 20.8px;
+  line-height: 2.2rem;
+  font-weight: 400 !important;
+}
+
+section.part2 .mailMessage {
+  cursor: default;
+  margin-top: 2.6rem;
+  height: 4.5rem;
+  width: 31.4rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 1rem;
+  cursor: default;
+}
+
+input {
+  cursor: default;
+  width: 70.5%;
+  display: flex;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 1rem 1rem;
+}
+::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+input:focus,
+input:active {
+  background-color: transparent !important;
+}
+
+button.mailButton {
+  height: 84%;
+  width: 28%;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  background-color: #f84646;
+  border: none;
+  border-radius: 8px;
+}

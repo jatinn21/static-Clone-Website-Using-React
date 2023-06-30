@@ -1,0 +1,64 @@
+.part3 {
+  height: auto;
+  width: 100vw;
+  transform: translateY(-1.2rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading__Part3 {
+  font-size: 36px;
+}
+
+.span__Part3 {
+  height: 10rem;
+  width: 70%;
+  margin-top: 2.35rem;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  line-height: 39.3px;
+}
+
+.icon_grid {
+  height: max-content;
+  width: 86%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 2rem;
+  margin-bottom: 4rem;
+  justify-items: center;
+  justify-content: center;
+}
+
+.icon_grid .card {
+  height: max-content;
+  width: 23rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 28px;
+}
+
+.icon {
+  height: 4.8rem;
+  width: 5rem;
+}
+
+p.card__title {
+  width: max-content;
+  font-size: 24px;
+  padding: 0.5rem;
+  font-weight: 800;
+}
+
+p.card__desc {
+  font-size: 18px !important;
+}

@@ -1,0 +1,77 @@
+.banner {
+  height: 376px;
+  width: 100%;
+  background: #fff url("../Assets/Banner.png");
+  margin-bottom: 7rem;
+}
+
+.banner__overlay {
+  height: inherit;
+  width: inherit;
+  background: #f84646;
+  position: absolute;
+  opacity: 0.88;
+}
+
+.title__desc {
+  height: max-content;
+  width: 100%;
+  padding: 4.2rem 0;
+  text-align: center;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading__Part4 {
+  font-size: 48px;
+  color: #fff;
+  padding-bottom: 0.7rem;
+}
+
+span.desc__Part4 {
+  height: max-content;
+  width: 100%;
+  font-size: 18px;
+  color: #fff;
+}
+
+.banner_bottom {
+  height: max-content;
+  width: 85%;
+  padding: 4.3rem;
+  /* margin-top: 4.3rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 800;
+  line-height: 31px;
+  text-align: left;
+}
+
+.banner_bottom span:nth-child(1) {
+  height: 62px;
+  width: 186px;
+}
+.banner_bottom span:nth-child(3) {
+  height: 62px;
+  width: 230px;
+}
+.banner_bottom span:nth-child(5) {
+  height: 62px;
+  width: 210px;
+}
+.banner_bottom span:nth-child(7) {
+  height: 62px;
+  width: 210px;
+}
+
+.bottom_icon {
+  height: 32px !important;
+  width: 32px !important ;
+  margin: 0 1.6rem;
+  background: url("../Assets/CaretCircleDoubleRight.png") no-repeat;
+}
